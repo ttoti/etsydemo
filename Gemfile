@@ -11,7 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'paperclip'
-gem 'pg'
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :development, :test do
   gem 'byebug'
@@ -21,4 +22,5 @@ group :development, :test do
 end
 group :production, :test do
 	gem 'rails_12factor'
+	gem 'pg'
 end
