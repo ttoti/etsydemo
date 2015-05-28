@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 3.3.4'
 gem 'paperclip'
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
+gem "devise"
 
 group :development, :test do
   gem 'byebug'
