@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :user
   resources :listings
   get 'pages/about'
-
   get 'pages/contact'
+  get 'seller' => "listings#seller"
 
   root 'listings#index'
 
