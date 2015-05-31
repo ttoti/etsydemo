@@ -13,6 +13,7 @@ gem 'paperclip'
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem "devise"
+gem 'stripe'
 
 group :development, :test do
   gem 'byebug'
