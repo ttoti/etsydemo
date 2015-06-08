@@ -20,6 +20,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'sqlite3'
+  gem 'rspec-rails'
 end
 group :production, :test do
 	gem 'rails_12factor'

@@ -21,3 +21,6 @@
 
 # Ignore files uploaded on local
 /public/system
+
+/.rspec
+/rspec
